@@ -1,0 +1,14 @@
+/*#include "stm32f4xx.h"*/
+/*void delayMs(int n);*/
+#include "led.h"
+int main(void)
+{
+	led();
+}
+/* 16 MHz SYSCLK */
+/*void delayMs(int n)
+{
+	int i;
+	for (; n > 0; n--)
+	for (i = 0; i < 3195; i++) ;
+}
